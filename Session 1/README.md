@@ -57,7 +57,6 @@ This session provides a deep dive into modern enterprise API management architec
 | Bijira              | AI-native SaaS platform to manage APIs at scale     |
 | Moesif              | API analytics and anomaly detection tool            |
 | Auth0               | External identity provider for OAuth2/OIDC          |
-| MCP Servers         | Managed Control Plane for secure and intelligent API invocation |
 
 ---
 
