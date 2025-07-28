@@ -37,7 +37,7 @@ Before proceeding, ensure the following prerequisites are met:
 5. The metadata has been populated with the following API details extracted from the OpenAPI definition.
 
    | Field        | Value                                                                                                                                 |
-       |--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+   |--------------|---------------------------------------------------------------------------------------------------------------------------------------|
    | API Name     | MerchantOnboardingAPI                                                                                                                 |
    | Context      | merchantonboardingapi                                                                                                                 |
    | API Version  | 1.2.0                                                                                                                                 |
