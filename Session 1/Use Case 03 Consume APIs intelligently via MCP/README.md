@@ -1,4 +1,4 @@
-# Use Case 02 - Integrating Moesif and Auth0
+# Use Case 03 - Consume APIs intelligently via MCP
 
 ## **Prerequisites**
 
