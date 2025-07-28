@@ -27,7 +27,7 @@ Before proceeding, ensure the following prerequisites are met:
 5. The metadata has been populated with the following API details extracted from the OpenAPI definition.
 
     | Field        | Value             |
-        |--------------|-------------------|
+    |--------------|-------------------|
     | API Name     | Customer Accounts API |
     | Context      | customeraccountsapi         |
     | API Version  | 1.0.0             |
