@@ -124,13 +124,13 @@ Make sure to copy the token as you will need it in the next step.**
 3. Add them as a new server configuration in mcp.json within your VS Code environment. 
 4. Replace the token placeholder with the token you generated in Step 7.
 
-## Step 4.9: Connect and Interact
+### Step 5.1: Connect and Interact
 1. Start the servers via VS Code.
 2. If everything is configured correctly, the client will:
    - Connect to the MCP Servers.
    - Automatically discover and list the available MCP Tools in both MCP servers.
 
-## Step 4.10: Use the Tools
+### Step 5.2: Use the Tools
 Open the chat option in Copilot to start trying out the MCP tools!
 
 
