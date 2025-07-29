@@ -14,8 +14,18 @@ Before proceeding, ensure the following prerequisites are met:
    - Click on **Create**.
    - Enter the project name as `Grand Union Bank Projects`.
    - Click **Create**.
+3. Deploy [Notification Service](https://github.com/wso2/bijira-samples/tree/main/services/notification-service-nodejs) at Choreo.
+   - Followup the README.md
+   - Deploy the Notification service at Choreo
+   - Create an API Key at [https://resend.com/](https://resend.com/api-keys)
+   - Add the created API Key as an environment variable 
+     - Naviagte to the deployed Notification service component from the [Choreo Console](https://console.choreo.dev/).
+     - From the left navigation, click Deploy.
+     - Click on Configure and Deploy.
+     - In the Configuration step, click + Add RESEND_API_KEY=<your-api-key> in the Environment Configurations section.
+     - Deploy and promote the service into Production
 
-## Step 2: Create an MCP Server using exising proxy
+## Step 2: Create an MCP Server using existing API proxy
 1. On the project home page, click `Create`
 2. Select `API Proxy` and  select `Import API Contract` under **My APIs (Ingress)**
 3. Click URL for API Contract, enter the following URL, and then click Next:
@@ -23,7 +33,7 @@ Before proceeding, ensure the following prerequisites are met:
    https://raw.githubusercontent.com/wso2/bijira-samples/refs/heads/main/services/notification-service-nodejs/openapi.yaml
    ```
 4. Click `Next` to proceed to the next step
-5. You can see that meta data has been populated, click `Create`
+5. You can see that the metadata has been populated. Update the endpoint with your Notification Service endpoint, then click 'Create'.
 6. Navigate to **Test** menu and tryout the API
 7. Navigate to **Deploy** and Promote the API Proxy to Production
 8. Navigate to **Lifecycle** and Publish the API Proxy
