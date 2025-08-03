@@ -114,4 +114,15 @@ Refer to the **Azure AI Foundry Model Deployment** section to obtain the API key
 2. Once the token limits are exceeded, you should receive a `429 Too Many Requests` response.
 3. This confirms that Bijira is actively enforcing the token-based rate limits on your endpoint.
 
+### Step 8: Promote to Production
+
+1. Go to the **Deploy** section.
+2. Under **Development Environment**, click **Promote**.
+3. Choose **Use Development Endpoint Configuration** and proceed.
+
+### Step 9: Publish to Developer Portal
+
+1. Navigate to **Develop > Lifecycle**.
+2. Click **Publish** to make the API available in the Developer Portal.
+
 ---
